@@ -1,6 +1,7 @@
 body {
   margin: 10px;
 }
+
 .studentCard {
   display: flex;
   border: 1px solid #000;
@@ -34,4 +35,78 @@ img {
   text-align: center;
   padding: 20px;
   margin: 10px 0;
+}
+
+.credit-card {
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.image {
+  float: right;
+  height: 20px;
+}
+
+.credit-card .div {
+  display: block;
+}
+
+.credit-card .number {
+  font-size: 1.9em;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.credit-card .bank {
+  margin-left: 20px;
+}
+
+.driver-card {
+  background-color: #425cbb;
+  border-radius: 10px;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.driver-card img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.driver-card .title {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.driver-card .rating {
+  font-size: 2rem;
+}
+
+.driver-card .model {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.driver-text {
+  margin-left: 5px;
 }
